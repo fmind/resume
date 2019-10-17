@@ -1,0 +1,5 @@
+tricks:
+- watchdog.tricks.ShellCommandTrick:
+    patterns: ["*.tex"]
+    drop_during_process: true
+    shell_command: "pdflatex resume.tex"
